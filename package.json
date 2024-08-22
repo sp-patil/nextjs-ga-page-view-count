@@ -1,0 +1,19 @@
+{
+  "name": "nextjs-ga-page-view-count",
+  "version": "1.0.0",
+  "description": "Fetches page view counts from Google Analytics for Next.js projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nextjs",
+    "google-analytics",
+    "page-view-count"
+  ],
+  "author": "Satish Patil <satishhhh04@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "googleapis": "^142.0.0"
+  }
+}
