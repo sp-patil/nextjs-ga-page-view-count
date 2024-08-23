@@ -114,9 +114,7 @@ const BlogPage = ({ slug }) => {
   useEffect(() => {
     const fetchPageViews = async () => {
       try {
-        const response = await axios.post('/api/page-views', {
-          slug: slug,
-        });
+        const response = await axios.post(`/api/page-views?slug=/`);
         setPageViews(response.data.pageViews);
       } catch (error) {
         console.error('Failed to fetch page view count:', error);
