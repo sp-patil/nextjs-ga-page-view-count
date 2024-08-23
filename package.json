@@ -1,6 +1,6 @@
 {
   "name": "nextjs-ga-page-view-count",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Fetches page view counts from Google Analytics for Next.js projects.",
   "main": "index.js",
   "scripts": {
